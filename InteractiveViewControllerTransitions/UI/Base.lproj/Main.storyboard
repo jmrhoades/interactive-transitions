@@ -359,9 +359,6 @@ In these examples, the gesture handling is paired with the animation code to kee
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <skView contentMode="scaleToFill" sceneName="ShaderScene01.sks" translatesAutoresizingMaskIntoConstraints="NO" id="a0b-Uw-hVQ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                            </skView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5e-EN-H0d">
                                 <rect key="frame" x="25" y="64" width="320" height="86"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="72"/>
@@ -438,16 +435,12 @@ In these examples, the gesture handling is paired with the animation code to kee
                             <constraint firstAttribute="trailing" secondItem="aM2-8P-E2h" secondAttribute="trailing" id="0HK-Xd-AMq"/>
                             <constraint firstItem="aM2-8P-E2h" firstAttribute="leading" secondItem="NHe-Ph-f56" secondAttribute="leading" id="51L-1n-YPc"/>
                             <constraint firstItem="aM2-8P-E2h" firstAttribute="centerY" secondItem="NHe-Ph-f56" secondAttribute="centerY" constant="80" id="CLb-vN-Sep"/>
-                            <constraint firstItem="a0b-Uw-hVQ" firstAttribute="top" secondItem="NHe-Ph-f56" secondAttribute="top" id="JzM-ZF-uoa"/>
                             <constraint firstItem="j9V-9b-Gez" firstAttribute="trailing" secondItem="i5e-EN-H0d" secondAttribute="trailing" constant="30" id="PKp-U8-B7o"/>
                             <constraint firstItem="Tbu-Hg-vBw" firstAttribute="leading" secondItem="j9V-9b-Gez" secondAttribute="leading" constant="25" id="TzG-9O-JbB">
                                 <variation key="heightClass=regular-widthClass=regular" constant="125"/>
                             </constraint>
-                            <constraint firstItem="a0b-Uw-hVQ" firstAttribute="leading" secondItem="j9V-9b-Gez" secondAttribute="leading" id="Vpr-uY-Gag"/>
-                            <constraint firstItem="a0b-Uw-hVQ" firstAttribute="trailing" secondItem="j9V-9b-Gez" secondAttribute="trailing" id="Wlr-sA-zx8"/>
                             <constraint firstItem="i5e-EN-H0d" firstAttribute="leading" secondItem="j9V-9b-Gez" secondAttribute="leading" constant="25" id="XeW-fe-kOj"/>
                             <constraint firstItem="j9V-9b-Gez" firstAttribute="bottom" secondItem="ySD-Lx-tej" secondAttribute="bottom" constant="20" id="ZhS-9w-B17"/>
-                            <constraint firstAttribute="bottom" secondItem="a0b-Uw-hVQ" secondAttribute="bottom" id="bg2-lt-zLS"/>
                             <constraint firstItem="Tbu-Hg-vBw" firstAttribute="top" secondItem="i5e-EN-H0d" secondAttribute="bottom" constant="10" id="dqf-Bg-S6b">
                                 <variation key="heightClass=regular-widthClass=regular" constant="80"/>
                             </constraint>
@@ -477,6 +470,9 @@ In these examples, the gesture handling is paired with the animation code to kee
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <skView contentMode="scaleToFill" sceneName="ShaderScene01.sks" translatesAutoresizingMaskIntoConstraints="NO" id="ea8-L2-6t6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </skView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calloutPathImg1" translatesAutoresizingMaskIntoConstraints="NO" id="QF9-j2-FCr">
                                 <rect key="frame" x="54.666666666666657" y="616" width="86" height="117"/>
                                 <constraints>
@@ -535,11 +531,15 @@ In these examples, the gesture handling is paired with the animation code to kee
                         </subviews>
                         <constraints>
                             <constraint firstItem="8ab-1c-MeT" firstAttribute="trailing" secondItem="lXP-9N-L2r" secondAttribute="trailing" constant="35" id="0iF-D4-PNF"/>
+                            <constraint firstItem="ea8-L2-6t6" firstAttribute="top" secondItem="uHw-SI-iRy" secondAttribute="top" id="5IO-lD-o7a"/>
                             <constraint firstItem="yQR-KV-KTC" firstAttribute="top" secondItem="5Dz-JE-BZA" secondAttribute="bottom" constant="10" id="Aag-xS-gCa"/>
+                            <constraint firstAttribute="bottom" secondItem="ea8-L2-6t6" secondAttribute="bottom" id="BB0-BV-xs9"/>
+                            <constraint firstItem="ea8-L2-6t6" firstAttribute="leading" secondItem="8ab-1c-MeT" secondAttribute="leading" id="BaF-DV-eED"/>
                             <constraint firstItem="8ab-1c-MeT" firstAttribute="bottom" secondItem="QF9-j2-FCr" secondAttribute="bottom" constant="45" id="Oyr-OX-jie"/>
                             <constraint firstItem="8ab-1c-MeT" firstAttribute="bottom" secondItem="y86-1F-hvT" secondAttribute="bottom" constant="20" id="QJV-gG-m0v"/>
                             <constraint firstItem="yQR-KV-KTC" firstAttribute="leading" secondItem="QF9-j2-FCr" secondAttribute="trailing" constant="10" id="QY8-6a-yGM"/>
                             <constraint firstItem="yQR-KV-KTC" firstAttribute="top" secondItem="QF9-j2-FCr" secondAttribute="top" constant="-10" id="QxE-35-HmO"/>
+                            <constraint firstItem="ea8-L2-6t6" firstAttribute="trailing" secondItem="8ab-1c-MeT" secondAttribute="trailing" id="Rb7-bu-OIa"/>
                             <constraint firstItem="5Dz-JE-BZA" firstAttribute="leading" secondItem="8ab-1c-MeT" secondAttribute="leading" constant="35" id="VJb-ah-sGx"/>
                             <constraint firstItem="8ab-1c-MeT" firstAttribute="trailing" secondItem="wgO-X4-EPz" secondAttribute="trailing" id="WT7-1z-dG0"/>
                             <constraint firstItem="wgO-X4-EPz" firstAttribute="centerY" secondItem="uHw-SI-iRy" secondAttribute="centerY" constant="-50" id="Yha-Lq-K7z"/>
