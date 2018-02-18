@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="t6l-KA-6OQ">
-    <device id="retina5_9" orientation="portrait">
+    <device id="ipad9_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,18 +15,18 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="FirstViewController" customModule="InteractiveViewControllerTransitions" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="GradientView" customModule="InteractiveViewControllerTransitions" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Push" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G7z-hx-T09">
-                                <rect key="frame" x="25" y="64" width="320" height="87"/>
+                                <rect key="frame" x="25" y="40" width="713" height="87"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="72"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.77056239049999997" green="0.61854118089999999" blue="0.33621607739999998" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vxg-iH-YXX">
-                                <rect key="frame" x="25" y="161" width="275" height="216"/>
+                                <rect key="frame" x="125" y="227" width="350" height="173"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="275" id="FEt-kS-oy2">
                                         <variation key="heightClass=regular-widthClass=regular" constant="350"/>
@@ -41,14 +41,14 @@ These animation classes are designed to be self-contained and interchangable. Ea
                                 <color key="shadowColor" red="0.77056239049999997" green="0.61854118089999999" blue="0.33621607739999998" alpha="0.14999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calloutPathImg1" translatesAutoresizingMaskIntoConstraints="NO" id="8qX-Ek-XgE">
-                                <rect key="frame" x="54.666666666666657" y="616" width="86" height="117"/>
+                                <rect key="frame" x="251" y="862" width="86" height="117"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="86" id="c5F-bq-JD3"/>
                                     <constraint firstAttribute="height" constant="117" id="tGx-jw-0jS"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This button triggers a standard navigation controller transition." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LG8-Lh-r1Y">
-                                <rect key="frame" x="150.66666666666666" y="606" width="159.99999999999997" height="56"/>
+                                <rect key="frame" x="347" y="852" width="160" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="56" id="OKv-2k-4aE"/>
                                     <constraint firstAttribute="width" constant="160" id="fdt-I4-zOv"/>
@@ -59,7 +59,7 @@ These animation classes are designed to be self-contained and interchangable. Ea
                                 <color key="shadowColor" red="0.7705623904863993" green="0.61854118090068189" blue="0.33621607738434955" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8JU-uT-LcG">
-                                <rect key="frame" x="157" y="705" width="61" height="53"/>
+                                <rect key="frame" x="353.5" y="951" width="61" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="61" id="OnU-wx-Zz2"/>
                                     <constraint firstAttribute="height" constant="53" id="i3i-YM-jnd"/>
@@ -74,7 +74,9 @@ These animation classes are designed to be self-contained and interchangable. Ea
                         </subviews>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="Vxg-iH-YXX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="6n7-IT-1As"/>
+                            <constraint firstItem="Vxg-iH-YXX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="6n7-IT-1As">
+                                <variation key="heightClass=regular-widthClass=regular" constant="125"/>
+                            </constraint>
                             <constraint firstItem="8qX-Ek-XgE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="-90" id="EhE-hT-LUC"/>
                             <constraint firstItem="G7z-hx-T09" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="GvC-ND-Ib9"/>
                             <constraint firstItem="Vxg-iH-YXX" firstAttribute="top" secondItem="G7z-hx-T09" secondAttribute="bottom" constant="10" id="OqI-eV-Qo8">
@@ -97,11 +99,6 @@ These animation classes are designed to be self-contained and interchangable. Ea
                                 <color key="value" red="0.97647058823529409" green="0.74901960784313726" blue="0.40784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
-                        <variation key="heightClass=regular-widthClass=regular">
-                            <mask key="constraints">
-                                <exclude reference="6n7-IT-1As"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="G3e-oz-P1N"/>
                 </viewController>
@@ -114,18 +111,18 @@ These animation classes are designed to be self-contained and interchangable. Ea
             <objects>
                 <viewController storyboardIdentifier="SecondViewController" id="8gv-SV-M4F" customClass="SecondViewController" customModule="InteractiveViewControllerTransitions" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qlm-W5-b2H" customClass="GradientView" customModule="InteractiveViewControllerTransitions" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edge" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M5o-Up-lV0">
-                                <rect key="frame" x="25" y="64" width="320" height="87"/>
+                                <rect key="frame" x="25" y="40" width="713" height="87"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="72"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" red="0.28539116827507566" green="0.75173827012379968" blue="0.49343360046144236" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhn-S2-RRM">
-                                <rect key="frame" x="25" y="161" width="275" height="193.33333333333337"/>
+                                <rect key="frame" x="80" y="207" width="350" height="150.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="275" id="5dv-bC-INB">
                                         <variation key="heightClass=regular-widthClass=regular" constant="350"/>
@@ -139,10 +136,10 @@ The direction and amount of panning is mapped to a percentage that drives the tr
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cj0-vd-yGL">
-                                <rect key="frame" x="0.0" y="466" width="375" height="140"/>
+                                <rect key="frame" x="0.0" y="572" width="768" height="140"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edge swipe from the left to go back. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="deH-em-kzq">
-                                        <rect key="frame" x="25" y="0.0" width="140" height="53"/>
+                                        <rect key="frame" x="130" y="0.0" width="140" height="53"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="53" id="TVy-7Y-2YV"/>
                                             <constraint firstAttribute="width" constant="140" id="ugD-4E-8IL"/>
@@ -159,7 +156,7 @@ The direction and amount of panning is mapped to a percentage that drives the tr
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edge swipe from the right to go forward." textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DRS-IJ-Cbv">
-                                        <rect key="frame" x="210" y="42" width="140" height="53"/>
+                                        <rect key="frame" x="498" y="42" width="140" height="53"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="140" id="9X7-jR-kUe"/>
                                             <constraint firstAttribute="height" constant="53" id="neU-eY-loF"/>
@@ -169,7 +166,7 @@ The direction and amount of panning is mapped to a percentage that drives the tr
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coachmarkEdgeSwipeRight" translatesAutoresizingMaskIntoConstraints="NO" id="5Pe-w0-sS8">
-                                        <rect key="frame" x="149" y="80" width="226" height="60"/>
+                                        <rect key="frame" x="542" y="80" width="226" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="226" id="Fuo-04-Vre"/>
                                             <constraint firstAttribute="height" constant="60" id="sAb-nS-fDD"/>
@@ -194,7 +191,7 @@ The direction and amount of panning is mapped to a percentage that drives the tr
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qeR-0H-nYz">
-                                <rect key="frame" x="157" y="705" width="61" height="53"/>
+                                <rect key="frame" x="353.5" y="951" width="61" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="FIy-Hj-KHU"/>
                                     <constraint firstAttribute="width" constant="61" id="MnA-Iy-Xtd"/>
@@ -243,17 +240,17 @@ The direction and amount of panning is mapped to a percentage that drives the tr
             <objects>
                 <viewController storyboardIdentifier="ThirdViewController" id="WAW-d5-xF2" customClass="ThirdViewController" customModule="InteractiveViewControllerTransitions" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hSk-wq-V45" customClass="GradientView" customModule="InteractiveViewControllerTransitions" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pinch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4E-i5-ivp">
-                                <rect key="frame" x="25" y="64" width="320" height="86"/>
+                                <rect key="frame" x="25" y="40" width="713" height="86"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="72"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UdY-xt-nGS">
-                                <rect key="frame" x="67.666666666666686" y="406" width="240" height="240"/>
+                                <rect key="frame" x="264" y="512" width="240" height="240"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coachmarkPinchInTopRight" translatesAutoresizingMaskIntoConstraints="NO" id="UyP-6C-MtO">
                                         <rect key="frame" x="150" y="-95" width="180" height="180"/>
@@ -263,7 +260,7 @@ The direction and amount of panning is mapped to a percentage that drives the tr
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coachmarkPinchInBottomLeft" translatesAutoresizingMaskIntoConstraints="NO" id="eK1-yT-VBe">
-                                        <rect key="frame" x="-85" y="160" width="180" height="180"/>
+                                        <rect key="frame" x="-85.5" y="160" width="180.5" height="180"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="180" id="lab-OJ-kQH"/>
                                             <constraint firstAttribute="height" constant="180" id="qg5-9J-6Sr"/>
@@ -294,7 +291,7 @@ The direction and amount of panning is mapped to a percentage that drives the tr
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79x-Ax-YRu">
-                                <rect key="frame" x="25" y="160" width="275" height="193.33333333333337"/>
+                                <rect key="frame" x="100" y="176" width="350" height="150.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="275" id="p4K-Em-SnA">
                                         <variation key="heightClass=regular-widthClass=regular" constant="350"/>
@@ -308,7 +305,7 @@ In these examples, the gesture handling is paired with the animation code to kee
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Gx-VT-Tec">
-                                <rect key="frame" x="157" y="705" width="61" height="53"/>
+                                <rect key="frame" x="353.5" y="951" width="61" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="Cg4-ZJ-r94"/>
                                     <constraint firstAttribute="width" constant="61" id="NuM-l2-7Jg"/>
@@ -356,17 +353,17 @@ In these examples, the gesture handling is paired with the animation code to kee
             <objects>
                 <viewController storyboardIdentifier="FourthViewController" id="VNg-hn-Uhn" customClass="FourthViewController" customModule="InteractiveViewControllerTransitions" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NHe-Ph-f56" customClass="GradientView" customModule="InteractiveViewControllerTransitions" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i5e-EN-H0d">
-                                <rect key="frame" x="25" y="64" width="320" height="86"/>
+                                <rect key="frame" x="25" y="40" width="713" height="86"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="72"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tbu-Hg-vBw">
-                                <rect key="frame" x="25" y="160" width="260" height="129"/>
+                                <rect key="frame" x="125" y="206" width="375" height="86"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="260" id="MOK-eZ-ypk">
                                         <variation key="heightClass=regular-widthClass=regular" constant="375"/>
@@ -378,24 +375,24 @@ In these examples, the gesture handling is paired with the animation code to kee
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aM2-8P-E2h">
-                                <rect key="frame" x="0.0" y="398.66666666666669" width="375" height="175.00000000000006"/>
+                                <rect key="frame" x="0.0" y="504.5" width="768" height="175"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coachmarkPanLeft" translatesAutoresizingMaskIntoConstraints="NO" id="eZg-lX-TMS">
-                                        <rect key="frame" x="27" y="74" width="118" height="27"/>
+                                        <rect key="frame" x="180" y="74" width="118" height="27"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="118" id="5pP-dr-vlA"/>
                                             <constraint firstAttribute="height" constant="27" id="StB-iR-EEI"/>
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coachmarkPanRight" translatesAutoresizingMaskIntoConstraints="NO" id="QcC-sq-rJc">
-                                        <rect key="frame" x="230" y="74" width="118" height="27"/>
+                                        <rect key="frame" x="470" y="74" width="118" height="27"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="118" id="MUI-pm-vht"/>
                                             <constraint firstAttribute="height" constant="27" id="qi6-Vs-6V5"/>
                                         </constraints>
                                     </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coachmarkPanCube" translatesAutoresizingMaskIntoConstraints="NO" id="DgQ-Qy-0Bg">
-                                        <rect key="frame" x="136" y="-9.6666666666666856" width="104" height="194"/>
+                                        <rect key="frame" x="332.5" y="-9.5" width="104" height="194"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="194" id="0Uy-BO-BQw"/>
                                             <constraint firstAttribute="width" constant="104" id="C7R-ez-4DI"/>
@@ -418,7 +415,7 @@ In these examples, the gesture handling is paired with the animation code to kee
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySD-Lx-tej">
-                                <rect key="frame" x="157" y="705" width="61" height="53"/>
+                                <rect key="frame" x="353.5" y="951" width="61" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="61" id="eKD-Hx-ZUg"/>
                                     <constraint firstAttribute="height" constant="53" id="fBz-VX-eVo"/>
@@ -467,21 +464,21 @@ In these examples, the gesture handling is paired with the animation code to kee
             <objects>
                 <viewController storyboardIdentifier="FifthViewController" id="JtJ-E4-kAT" customClass="FifthViewController" customModule="InteractiveViewControllerTransitions" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uHw-SI-iRy" customClass="GradientView" customModule="InteractiveViewControllerTransitions" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <skView contentMode="scaleToFill" sceneName="ShaderScene01.sks" translatesAutoresizingMaskIntoConstraints="NO" id="ea8-L2-6t6">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                             </skView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="calloutPathImg1" translatesAutoresizingMaskIntoConstraints="NO" id="QF9-j2-FCr">
-                                <rect key="frame" x="54.666666666666657" y="616" width="86" height="117"/>
+                                <rect key="frame" x="251" y="862" width="86" height="117"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="117" id="1QS-B9-bwA"/>
                                     <constraint firstAttribute="width" constant="86" id="ufq-Ye-6kH"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This button triggers a standard unwind segue transition." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQR-KV-KTC">
-                                <rect key="frame" x="150.66666666666666" y="606" width="139.99999999999997" height="56"/>
+                                <rect key="frame" x="347" y="852" width="140" height="56"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="140" id="eIH-tz-GDp"/>
                                     <constraint firstAttribute="height" constant="56" id="jZX-IZ-WJr"/>
@@ -492,20 +489,20 @@ In these examples, the gesture handling is paired with the animation code to kee
                                 <color key="shadowColor" red="0.82240376869837439" green="0.32011830603035346" blue="0.32848973040815371" alpha="0.14816994863013699" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reset" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Dz-JE-BZA">
-                                <rect key="frame" x="34.999999999999986" y="510" width="205.66666666666663" height="86"/>
+                                <rect key="frame" x="35" y="756" width="205.5" height="86"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="72"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coachmarkEdgeSwipeRightSmall" translatesAutoresizingMaskIntoConstraints="NO" id="wgO-X4-EPz">
-                                <rect key="frame" x="188" y="342.66666666666669" width="187" height="27"/>
+                                <rect key="frame" x="581" y="448.5" width="187" height="27"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="WzY-Pc-wqR"/>
                                     <constraint firstAttribute="width" constant="187" id="XTm-9D-8Ra"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edge swiping on the first or final view provides feedback." lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lXP-9N-L2r">
-                                <rect key="frame" x="200" y="277.66666666666669" width="140" height="65"/>
+                                <rect key="frame" x="593" y="383.5" width="140" height="65"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="65" id="KoL-Fa-QV6"/>
                                     <constraint firstAttribute="width" constant="140" id="l7K-0K-qpY"/>
@@ -516,7 +513,7 @@ In these examples, the gesture handling is paired with the animation code to kee
                                 <color key="shadowColor" red="0.82240376869837439" green="0.32011830603035346" blue="0.32848973040815371" alpha="0.26658818493150682" colorSpace="custom" customColorSpace="sRGB"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y86-1F-hvT">
-                                <rect key="frame" x="157" y="705" width="61" height="53"/>
+                                <rect key="frame" x="353.5" y="951" width="61" height="53"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="53" id="5lY-ku-Mml"/>
                                     <constraint firstAttribute="width" constant="61" id="KjQ-7P-Ga2"/>
