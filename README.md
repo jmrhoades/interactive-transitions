@@ -9,3 +9,6 @@ Easy to use custom interactive navigation controller transitions that work along
 4. Attach the transition's gestures to your view controller `transition.addGestures(toViewController:self)`
 5. Optionally add a storyboard ID for `push` transitions `transition.nextStoryboardID = "SecondViewController"`
 ![The example app](https://img.jmrhoades.com/ivct_xcode_01.jpg)
+
+## Why?
+After getting vaguely acquainted with the UIKit view controller transitioning APIs via this essential 2013 WWDC talk [Custom Transitions Using View Controllers](https://developer.apple.com/videos/play/wwdc2013/218/), I wanted to create a dead-simple, drop-in transition helper that would play nice with storyboard-based projects. This approach led to self-contained classes that encapsulate the necessary gesture recognizers, transitioning protocols, navigation delegates and animations required to express a complete thought around an interactive transitions.
