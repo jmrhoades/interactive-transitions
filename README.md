@@ -1,2 +1,4 @@
-# Interactive UIViewController Transitions
-This is an example project that uses custom interactive navigation controller transitions alongside standard storyboard segues.
+# Interactive View Controller Transitions
+Easy to use custom interactive navigation controller transitions that work alongside storyboards
+
+![The example app is laid out in and connected in Interface Builder](https://img.jmrhoades.com/ivct_xcode_01.jpg)
