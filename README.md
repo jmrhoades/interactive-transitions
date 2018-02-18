@@ -1,6 +1,6 @@
 # Interactive View Controller Transitions
 Easy to use custom interactive navigation controller transitions that work alongside storyboards.
-![A screen capture from the example app](https://img.jmrhoades.com/ivct_capture_01b.gif)
+![A screen capture from the example app](https://img.jmrhoades.com/ivct_capture_01_low.gif)
 
 
 ## Try it
