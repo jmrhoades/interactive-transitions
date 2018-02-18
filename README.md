@@ -13,4 +13,4 @@ Easy to use custom interactive navigation controller transitions that work along
 
 
 ## Why?
-After getting vaguely acquainted with the UIKit view controller transitioning APIs via this essential 2013 WWDC talk [Custom Transitions Using View Controllers](https://developer.apple.com/videos/play/wwdc2013/218/), I wanted to create a dead-simple, drop-in transition helper that would play nice with storyboard-based projects. This approach led to self-contained classes that encapsulate the necessary gesture recognizers, transitioning protocols, navigation delegates and animations required to express a complete thought around interactive transitions.
+After getting vaguely acquainted with the UIKit view controller transitioning APIs ([Custom Transitions Using View Controllers](https://developer.apple.com/videos/play/wwdc2013/218/)), I wanted to create a dead-simple, drop-in transition helper that would play nice with storyboard-based projects. This approach led to self-contained classes that encapsulate the necessary gesture recognizers, transitioning protocols, navigation delegates and animations required to express a complete thought around interactive transitions.
